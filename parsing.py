@@ -11,7 +11,7 @@ def stats(collection):
 listOfStrings = ["this","is","a","bunch","of","words"]
 shortest, longest, sentence = stats(listOfStrings)
 
-print(f"shortest word = {shortest}")
-print(f"longest = {longest}")
 print(f"whole sentence = {sentence}")
+print(f"shortest word = {shortest}")
+print(f"longest word = {longest}")
 sys.exit(0)
